@@ -1,6 +1,6 @@
 #!/bin/bash 
 # 
-        backup_dir="backup" 
+backup_dir="backup" 
  
 postfix=$1 
 input="" 
