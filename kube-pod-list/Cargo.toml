@@ -1,0 +1,10 @@
+[package]
+name = "kube-pod-list"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+kube = { version = "0.95", feature = ["runtime", "derive"] }
+k8s-openapi = { version = "0.23", feature = ["v1_30"]}
+tokio = { version = "1", feature = ["macros", "rt-multi-thread"]}
+feature = "0.3"
